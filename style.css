@@ -1,0 +1,113 @@
+html{
+    animation: animateProfileGate .45s forwards;
+}
+.color-background{
+    background: #141414;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 0;
+}
+.centered{
+    align-items: center;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+.list-profile{
+    max-width: 80%;
+}
+h1{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5vw;
+    font-weight: unset;
+    width: 100%;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin: 2em 0;
+    padding:0;
+}
+.profile{
+    background-color: #333;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 10vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 84px;
+    min-width: 84px;
+    position: relative;
+    text-decoration: none;
+    width: 10vw;
+}
+li{
+    margin: 0 2vw 0 0;
+    max-width: 200px;
+    min-width: 84px;
+    width: 10vw;
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+.test{
+    display: inline-block;
+}
+.test span{
+    margin-top: 110%;
+}
+.icon1{
+    background-image: url(http://occ-0-56-55.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229);
+}
+.icon2{
+    background-image: url(http://occ-0-56-55.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABdi6oYb6DJb1LndQWckgaXvrqqP3QURNa8Xngiq7wwFwDtWIg1otEuYKVxbYwS9c5clAI1_Bn7DuljwcvhfUzQu2_Y2v9y5P6t_n.png?r=e6e);
+}
+.jeunesse{
+    background-image: url(http://occ-0-56-55.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABTioVoPk5z4SMAfK-naKH4vCrwbyYPv-hsx4yug1xPVMAd62Vijyc1VkGI9xhxVdKWZ2ktzk5foMhhWrd7cqUPBANk_90jAFkSah.png?r=a3e);
+}
+.add1{
+    background-image: url(http://occ-0-56-55.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABY5cwIbM7shRfcXmfQg98cqMqiZZ8sReZnj4y_keCAHeXmG_SoqLD8SXYistPtesdqIjcsGE-tHO8RR92n7NyxZpqcFS80YfbRFz.png?r=229)
+}
+.profile-button{
+    background-color: transparent;
+    border: 1px solid grey;
+    color: grey;
+    cursor: pointer;
+    display: block;
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+    margin: 5em 0 1em;
+    padding: 0.5em 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profile-name{
+    color: grey;
+    display: block;
+    font-size: 1.3vw;
+    line-height: 1.2em;
+    margin: 0.6em 0;
+    min-height: 1.8em;
+    overflow: hidden;
+    text-align: center;
+    text-overflow: ellipsis;
+    font-family: Arial, Helvetica, sans-serif;
+}
